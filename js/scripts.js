@@ -1,6 +1,7 @@
 
 $(document).ready(function(){$('[data-toggle=offcanvas]').click(function() {
-  $('.row-offcanvas').toggleClass('active');
+  	console.log("transitoin should happen")
+  $('.row-offcanvas').toggleClass('active', 1);
 });
 
 $('.btn-toggle').click(function() {
@@ -56,5 +57,7 @@ $(".votebutton").click(function(e){
 		document.getElementById("date").innerHTML = date;
 	}
 })();
+
+
 
 });
