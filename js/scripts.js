@@ -41,6 +41,13 @@ $(".rsvp").click(function(e){
 
 });
 
+$(".votebutton").click(function(e){
+
+	$('.hideme').toggleClass('hide');
+	$('.alert').toggleClass('hide');
+
+});
+
 (function(){
 	var date = Date();
 	date = date.substr(0,date.length -23);

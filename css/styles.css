@@ -259,3 +259,11 @@ p.text-left{
   min-width: 180px;
   max-width: 180px;
 }
+
+#log-container { 
+  padding-top: 0;
+}
+
+.memberData{
+  padding-right:10px;
+}
